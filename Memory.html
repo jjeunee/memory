@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Memory</title>
+  <style>
+      
+      h1 {
+          text-align:center;
+          font-family:'MapoFlowerIsland';
+          font-size:50px;
+          font-weight:bold;
+          margin-top:100px
+      }
+      #menu {
+         text-align: center;
+         font-family:'MapoFlowerIsland';
+         font-size:25px;
+         display: grid;
+         border-right:1px solid black;
+         margin-left:200px;
+         margin-top:100px;
+         width:200px
+      }
+      a {
+          text-decoration:none        
+      }
+      .sea {
+        float:right; 
+        clear:both;
+        width:25%;
+      	height:auto;
+        padding:40px;
+        margin-right:100px;
+        background-attachment:fixed;
+      }
+      @font-face {
+          font-family: 'MapoFlowerIsland';
+          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
+      @media (max-width:800px) {
+        .sea
+        {
+          display:none
+        }
+        #menu {
+          border-right:none;
+          font-size:20px;
+          margin-left:150px
+        }
+      }
+  </style>
+</head>
+<body>
+  <h1><p>Memory</p></h1>
+  <img src="sea.jpg" class="sea">
+  <div= id="menu";>
+    <a href="Episode.01.html"><p>Episode.01</p></a>
+    <a href="Episode.02.html"><p>Episode.02</p></a>
+    <a href="Episode.03.html"><p>Episode.03</p></a>
+    <p>Epilogue</p>
+  </div>
+</body>
+</html>
